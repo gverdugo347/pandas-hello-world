@@ -6,6 +6,7 @@ Simple pandas project.
 
 ```bash
 pip install -r requirements.txt
+pip install openpyxl
 ```
 
 ## Usage
@@ -20,9 +21,12 @@ python process_sensor_data.py
 - `process_sensor_data.py`: Analysis script
 - `sensor_data_analyzed.csv`: Output results
 
+- 'sensor_data.xlsx': input data
+- 'sensor_data_analyzed.xlsx': Output Results
+
 ## What It Does
 
-1. Loads CSV data
+1. Loads CSV data (in the assingment it is xlxs)
 2. Cleans missing values
 3. Calculates averages by equipment
 4. Flags high temperature readings (>50°C)
